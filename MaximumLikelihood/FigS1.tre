@@ -1,0 +1,509 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=407;
+	taxlabels
+	'AB860301|Philippines|2013'
+	'AMA294|BoaVista_Roraima|2014'[&!color=#395dfa]
+	'AMA295|Rondonia|2014'[&!color=#395dfa]
+	'EF027140|India|1963'
+	'EF027141|India|1973'
+	'EF452493|Thailand|'
+	'EU703759|Malaysia|2006'
+	'EU703760|Malaysia|2006'
+	'EU703761|Malaysia|2006'
+	'EU703762|Malaysia|2006'
+	'FJ807897|Indonesia|2007'
+	'FN295483|Malaysia|2006'
+	'FN295484|Malaysia|2006'
+	'HE806461|New_Caledonia|2011'
+	'HM045787|Thailand|1995'
+	'HM045788|India|1973'
+	'HM045789|Thailand|1988'
+	'HM045790|Philippines|1985'
+	'HM045791|Indonesia|1983'
+	'HM045796|Thailand|1995'
+	'HM045797|Indonesia|1985'
+	'HM045800|Philippines|1985'
+	'HM045802|K0146-95|Thailand'
+	'HM045803|India|1963'
+	'HM045808|Thailand|1978'
+	'HM045810|Thailand|1958'
+	'HM045813|India|1963'
+	'HM045814|Thailand|1975'
+	'KC488650|China|2012'
+	'KF318729|China|2012'
+	'KF872195|Russia_Imported|2013'
+	'KJ451622|Micronesia|2013'
+	'KJ451623|Micronesia|2013'
+	'KJ451624|British_Virgin_Islands|2014'
+	'KJ689452|Micronesia|2013'
+	'KJ689453|Micronesia|2013'
+	'KM673291|Indonesia|2013'
+	'KM923917|Malaysia|2007'
+	'KM923918|Malaysia|2007'
+	'KM923919|Malaysia|2007'
+	'KM923920|Malaysia|2007'
+	'KP164567|Brazil_Oiapoque-AP|2014'[&!color=#fc0d0d]
+	'KP164571|Brazil_Recife-PE|2014'[&!color=#fc0d0d]
+	'KP164572|Brazil_Belem-PA|2014'[&!color=#fc0d0d]
+	'KP851709|Mexico|2014'
+	'KP851710|Mexico_|2014'
+	'KR046227|Trinidad_and_Tobago|2014'
+	'KR046228|Trinidad_and_Tobago|2014'
+	'KR046229|Trinidad_and_Tobago|2014'
+	'KR046230|Trinidad_and_Tobago|2014'
+	'KR046231|Trinidad_and_Tobago|2014'
+	'KR046232|Trinidad_and_Tobago|2014'
+	'KR046233|Trinidad_and_Tobago|2014'
+	'KR046234|Trinidad_and_Tobago|2014'
+	'KR264949|PR-S4|Puerto_Rico|2014'
+	'KR264950|PR-S5|Puerto_Rico|2014'
+	'KR264951|Puerto_Rico|2014'
+	'KR559470|Puerto_Rico|2014'
+	'KR559471|El_Salvador|2014'
+	'KR559472|El_Salvador|2014'
+	'KR559473|French_Polynesia|2015'
+	'KR559474|Puerto_Rico|2014'
+	'KR559475|El_Salvador|2014'
+	'KR559476|Haiti|2014'
+	'KR559477|Dominican_Republic|2014'
+	'KR559478|Haiti|2014'
+	'KR559479|Dominican_Republic|2014'
+	'KR559480|Virgin_Islands|2014'
+	'KR559481|Guatemala|2014'
+	'KR559482|Virgin_Islands|2014'
+	'KR559483|Puerto_Rico|2014'
+	'KR559484|El_Salvador|2014'
+	'KR559485|Virgin_Islands|2014'
+	'KR559486|Panama|2014'
+	'KR559487|Honduras|2014'
+	'KR559488|Honduras|2014'
+	'KR559489|Jamaica|2014'
+	'KR559490|Guyana|2014'
+	'KR559491|Colombia|2014'
+	'KR559492|Saint_Lucia|2014'
+	'KR559493|American_Samoa|2014'
+	'KR559494|Virgin_Islands|2014'
+	'KR559495|Puerto_Rico|2014'
+	'KR559496|Guyana|2014'
+	'KR559498|Dominican_Republic|2014'
+	'KT192707|Nicaragua|2014'
+	'KT308159|Philippines|2012'
+	'KT308160|Philippines|2012'
+	'KT308161|Philippines|2012'
+	'KT308162|Philippines|2012'
+	'KT308163|Philippines|2012'
+	'KT327163|Mexico|2014'
+	'KT327164|Mexico|2014'
+	'KT327165|Mexico|2014'
+	'KT327166|Mexico|2014'
+	'KT327167|Mexico|2014'
+	'KU355832|Brazil|2015'[&!color=#fc0d0d]
+	'KU365366|Mexico|2014'
+	'KU365367|Mexico|2014'
+	'KU365368|Mexico|2014'
+	'KU365369|Trinidad_and_Tobago|2014'
+	'KU365372|Colombia|2014'
+	'KU365373|Colombia|2014'
+	'KU365374|Venezuela|2014'
+	'KX097982|Indonesia|2015'
+	'KX097986|Indonesia|2015'
+	'KX097988|Indonesia|2015'
+	'KX168429|Malaysia|2009'
+	'KX262987|Thailand|1996'
+	'KX262988|Thailand|1988'
+	'KX262991|Saint_Martin|2003'
+	'KX262992|Guadeloupe|2014'
+	'KX262994|French_Guiana|2014'
+	'KX496989|Colombia|2016'
+	'KX702401|Haiti|2014'
+	'KX702402|Haiti|2014'
+	'KY272961|Dominican_Republic|2014'
+	'KY272962|Dominican_Republic|2014'
+	'KY272963|Dominican_Republic|2014'
+	'KY272964|Dominican_Republic|2014'
+	'KY272965|Dominican_Republic|2014'
+	'KY272966|Dominican_Republic|2014'
+	'KY272967|Dominican_Republic|2014'
+	'KY272968|Dominican_Republic|2014'
+	'KY272969|Dominican_Republic|2014'
+	'KY272970|Dominican_Republic|2014'
+	'KY415978|Haiti|2014'
+	'KY415979|Haiti|2014'
+	'KY415980|Haiti|2014'
+	'KY415981|Haiti|2014'
+	'KY415982|Haiti|2014'
+	'KY415983|Haiti|2014'
+	'KY415984|Haiti|2014'
+	'KY415985|Haiti|2014'
+	'KY435454|Trinidad_and_Tobago|2011'
+	'KY435455|Anguilla|2014'
+	'KY435456|Suriname|2014'
+	'KY435457|Montserrat|2014'
+	'KY435458|Guyana|2014'
+	'KY435459|Cayman_Islands|2014'
+	'KY435460|Cayman_Islands|2014'
+	'KY435461|Jamaica|2014'
+	'KY435462|Jamaica|2014'
+	'KY435463|Suriname|2014'
+	'KY435464|Barbados|2014'
+	'KY435465|Trinidad_and_Tobago|2014'
+	'KY435466|Barbados|2014'
+	'KY435467|Montserrat|2014'
+	'KY435468|Jamaica|2014'
+	'KY435469|Grenada|2014'
+	'KY435470|Bahamas|2014'
+	'KY435471|Turks_and_Caicos_Islands|2014'
+	'KY435472|Grenada|2014'
+	'KY435473|Saint_Lucia|2014'
+	'KY435474|Saint_Lucia|2014'
+	'KY435475|Saint_Vincent_and_the_Grenadines|2014'
+	'KY435476|Turks_and_Caicos_Islands|2014'
+	'KY435477|Guyana|2014'
+	'KY435478|Guyana|2014'
+	'KY435479|Antigua_and_Barbuda|2014'
+	'KY435480|Haiti|2014'
+	'KY435481|Saint_Lucia|2014'
+	'KY435482|Saint_Kitts_and_Nevis|2014'
+	'KY435483|Anguilla|2014'
+	'KY435484|Dominica|2014'
+	'KY435485|Dominica|2014'
+	'KY435486|British_Virgin_Islands|2014'
+	'KY575565|USA|2014'
+	'KY575566|USA|2014'
+	'KY575569|USA|2014'
+	'KY575572|USA|2014'
+	'KY575573|USA|2014'
+	'KY680347|USA|2014'
+	'KY680348|USA|2014'
+	'KY680349|USA|2014'
+	'KY680350|USA|2014'
+	'KY680351|USA|2014'
+	'KY680352|USA|2014'
+	'KY680353|USA|2014'
+	'KY680354|USA|2014'
+	'KY680355|USA|2014'
+	'KY680356|USA|2014'
+	'KY680357|USA|2014'
+	'KY680358|USA|2014'
+	'KY680359|USA|2014'
+	'KY680360|USA|2014'
+	'KY680361|USA|2014'
+	'KY680362|USA|2014'
+	'KY680363|USA|2014'
+	'KY680364|USA|2014'
+	'KY680365|USA|2014'
+	'KY680366|USA|2014'
+	'KY680367|USA|2014'
+	'KY680368|USA|2014'
+	'KY680369|USA|2014'
+	'KY680370|USA|2014'
+	'KY680371|USA|2014'
+	'KY680372|USA|2014'
+	'KY680373|USA|2014'
+	'KY680374|USA|2014'
+	'KY680375|USA|2014'
+	'KY680376|USA|2014'
+	'KY680377|USA|2014'
+	'KY680378|USA|2014'
+	'KY680379|USA|2014'
+	'KY680380|USA|2014'
+	'KY680381|USA|2014'
+	'KY680382|USA|2014'
+	'KY680383|USA|2014'
+	'KY680384|USA|2014'
+	'KY680385|USA|2014'
+	'KY680386|USA|2014'
+	'KY680387|USA|2014'
+	'KY680388|USA|2014'
+	'KY680389|USA|2014'
+	'KY680390|USA|2014'
+	'KY680391|USA|2014'
+	'KY680392|USA|2014'
+	'KY680393|USA|2014'
+	'KY680394|USA|2014'
+	'KY680395|USA|2014'
+	'KY680396|USA|2014'
+	'KY680397|USA|2014'
+	'KY680398|USA|2014'
+	'KY680399|USA|2014'
+	'KY680400|USA|2014'
+	'KY680401|USA|2014'
+	'KY680402|USA|2014'
+	'KY680403|USA|2014'
+	'KY680404|USA|2014'
+	'KY680405|USA|2014'
+	'KY680406|USA|2014'
+	'KY680407|USA|2014'
+	'KY680408|USA|2014'
+	'KY680409|USA|2014'
+	'KY680410|USA|2014'
+	'KY680411|USA|2014'
+	'KY680412|USA|2014'
+	'KY680413|USA|2014'
+	'KY680414|USA|2014'
+	'KY703888|Nicaragua|2015'
+	'KY703889|Nicaragua|2015'
+	'KY703890|Nicaragua_Masaya|2015'
+	'KY703891|Nicaragua_Rivas|2015'
+	'KY703892|Nicaragua|2015'
+	'KY703893|Nicaragua|2015'
+	'KY703894|Nicaragua|2015'
+	'KY703895|Nicaragua|2015'
+	'KY703896|Nicaragua|2014'
+	'KY703897|Nicaragua|2015'
+	'KY703898|Nicaragua|2015'
+	'KY703899|Nicaragua_Nuevo_Segovia|2015'
+	'KY703900|Nicaragua|2015'
+	'KY703901|Nicaragua|2015'
+	'KY703902|Nicaragua|2015'
+	'KY703903|Nicaragua|2015'
+	'KY703904|Nicaragua|2014'
+	'KY703905|Nicaragua|2015'
+	'KY703906|Nicaragua|2015'
+	'KY703907|Nicaragua|2015'
+	'KY703908|Nicaragua|2014'
+	'KY703909|Nicaragua|2015'
+	'KY703910|Nicaragua|2015'
+	'KY703911|Nicaragua|2015'
+	'KY703912|Nicaragua|2015'
+	'KY703913|Nicaragua|2015'
+	'KY703914|Nicaragua|2015'
+	'KY703915|Nicaragua|2015'
+	'KY703916|Nicaragua|2015'
+	'KY703917|Nicaragua|2016'
+	'KY703918|Nicaragua|2015'
+	'KY703919|Nicaragua|2015'
+	'KY703920|Nicaragua_Granada|2015'
+	'KY703921|Nicaragua|2015'
+	'KY703922|Nicaragua|2015'
+	'KY703923|Nicaragua|2015'
+	'KY703924|Nicaragua|2015'
+	'KY703925|Nicaragua|2015'
+	'KY703926|Nicaragua|2015'
+	'KY703927|Nicaragua|2015'
+	'KY703928|Nicaragua|2015'
+	'KY703930|Nicaragua|2015'
+	'KY703931|Nicaragua|2015'
+	'KY703932|Nicaragua|2015'
+	'KY703933|Nicaragua|2015'
+	'KY703934|Nicaragua|2015'
+	'KY703935|Nicaragua|2015'
+	'KY703936|Nicaragua|2015'
+	'KY703937|Nicaragua|2015'
+	'KY703938|Nicaragua|2015'
+	'KY703940|Nicaragua|2014'
+	'KY703941|Nicaragua|2015'
+	'KY703942|Nicaragua|2015'
+	'KY703943|Nicaragua|2015'
+	'KY703944|Nicaragua|2015'
+	'KY703945|Nicaragua|2015'
+	'KY703946|Nicaragua|2015'
+	'KY703947|Nicaragua|2014'
+	'KY703948|Nicaragua|2015'
+	'KY703949|Nicaragua|2015'
+	'KY703950|Nicaragua|2014'
+	'KY703951|Nicaragua|2015'
+	'KY703952|Nicaragua|2015'
+	'KY703954|Nicaragua|2014'
+	'KY703955|Nicaragua|2015'
+	'KY703956|Nicaragua|2014'
+	'KY703957|Nicaragua|2015'
+	'KY703958|Nicaragua|2015'
+	'KY703959|Nicaragua|2014'
+	'KY703960|Nicaragua|2015'
+	'KY703961|Nicaragua|2015'
+	'KY703962|Nicaragua|2015'
+	'KY703963|Nicaragua|2015'
+	'KY703965|Nicaragua|2015'
+	'KY703966|Nicaragua|2015'
+	'KY703967|Nicaragua|2015'
+	'KY703968|Nicaragua|2015'
+	'KY703969|Nicaragua|2014'
+	'KY703970|Nicaragua|2015'
+	'KY703971|Nicaragua|2015'
+	'KY703972|Nicaragua|2014'
+	'KY703973|Nicaragua|2015'
+	'KY703974|Nicaragua|2015'
+	'KY703975|Nicaragua|2015'
+	'KY703976|Nicaragua|2015'
+	'KY703977|Nicaragua|2015'
+	'KY703978|Nicaragua|2015'
+	'KY703979|Nicaragua|2015'
+	'KY703980|Nicaragua|2015'
+	'KY703982|Nicaragua|2015'
+	'KY703983|Nicaragua|2014'
+	'KY703984|Nicaragua|2014'
+	'KY703985|Nicaragua|2015'
+	'KY703986|Nicaragua|2015'
+	'KY703987|Nicaragua|2015'
+	'KY703988|Nicaragua|2014'
+	'KY703989|Nicaragua|2014'
+	'KY703990|Nicaragua|2015'
+	'KY703991|Nicaragua|2015'
+	'KY703992|Nicaragua|2015'
+	'KY703993|Nicaragua|2014'
+	'KY703994|Nicaragua|2015'
+	'KY703995|Nicaragua|2015'
+	'KY703996|Nicaragua|2015'
+	'KY703997|Nicaragua|2015'
+	'KY703998|Nicaragua|2015'
+	'KY703999|Nicaragua|2015'
+	'KY704000|Nicaragua|2015'
+	'KY704001|Nicaragua|2015'
+	'KY704002|Nicaragua|2015'
+	'KY883764|Singapore|2013'
+	'LC259082|Thailand|1958'
+	'LC259083|Indonesia|2009'
+	'LC259084|Philippines|2012'
+	'LC259085|Indonesia|2012'
+	'LC259086|Indonesia|2013'
+	'LC259087|Indonesia|2013'
+	'LC259088|Tonga|2014'
+	'LC259089|Dominica|2014'
+	'LC259090|Colombia|2015'
+	'LC259091|Indonesia|2015'
+	'LC259092|Cuba|2016'
+	'LN898093|Martinique|2013'
+	'LN898094|Guadeloupe|2014'
+	'LN898095|Martinique|2014'
+	'LN898096|Martinique|2014'
+	'LN898097|Guadeloupe|2014'
+	'LN898098|Guadeloupe|2014'
+	'LN898099|Guadeloupe|2014'
+	'LN898100|Martinique|2014'
+	'LN898101|Martinique|2014'
+	'LN898102|Guadeloupe|2014'
+	'LN898103|Guadeloupe|2014'
+	'LN898104|Martinique|2014'
+	'LN898105|Martinique|2014'
+	'LN898106|Martinique|2014'
+	'LN898107|Martinique|2014'
+	'LN898108|Martinique|2014'
+	'LN898109|Martinique|2014'
+	'LN898110|Guadeloupe|2014'
+	'LN898111|Guadeloupe|2014'
+	'LN898112|Martinique|2014'
+	'MF001505|USA|2015'
+	'MF001506|USA|2015'
+	'MF001507|USA|2015'
+	'MF001508|USA|2015'
+	'MF001509|USA|2015'
+	'MF001510|USA|2015'
+	'MF001511|USA|2015'
+	'MF001512|USA|2015'
+	'MF001513|USA|2015'
+	'MF001514|USA|2015'
+	'MF001515|USA|2015'
+	'MF001516|USA|2015'
+	'MF001517|USA|2015'
+	'MF001518|USA|2015'
+	'MF001519|USA|2015'
+	'MF773559|Samoa|2014'
+	'MF773560|Caribbean|2014'
+	'MF773561|Indonesia|2011'
+	'MF773562|Kiribati|2015'
+	'MF773563|Philippines|2014'
+	'MF773564|Philippines|2016'
+	'MF773565|Timor-Leste|2010'
+	'MG208125|Saint_Martin|2013'
+	'MG664851|China|2012'
+	'MG921596|Mexico|2015'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((('KY703932|Nicaragua|2015':9.0E-5,'KY704000|Nicaragua|2015':9.0E-5)[&label=82]:9.0E-5,'KY703963|Nicaragua|2015':9.0E-5)[&label=90,!collapse={"collapsed",7.2307136540576E-4}]:1.8E-4,'KY703969|Nicaragua|2014':9.0E-5)[&label=8]:1.0E-6,(((((('MG208125|Saint_Martin|2013':1.0E-6,((('KT327165|Mexico|2014':1.0E-6,'KT327164|Mexico|2014':1.0E-6)[&label=8]:1.0E-6,'KT327163|Mexico|2014':1.0E-6)[&label=7]:1.0E-6,(('KT327167|Mexico|2014':1.0E-6,'KT327166|Mexico|2014':1.0E-6)[&label=8]:1.0E-6,('KJ451624|British_Virgin_Islands|2014':1.0E-6,'KY435486|British_Virgin_Islands|2014':1.0E-6)[&label=5]:1.0E-6)[&label=0]:1.0E-6)[&label=34]:1.0E-6)[&label=58,!collapse={"collapsed",0.0012619709150927978}]:9.0E-5,'KY435473|Saint_Lucia|2014':9.0E-5)[&label=1]:1.0E-6,((((((((('MF773564|Philippines|2016':0.001625,('MF773563|Philippines|2014':0.001443,((('LC259088|Tonga|2014':2.71E-4,('MF773562|Kiribati|2015':2.7E-4,('MF773559|Samoa|2014':3.6E-4,'KR559493|American_Samoa|2014':9.0E-5)[&label=100]:9.0E-5)[&label=100]:2.69E-4)[&label=100,!collapse={"collapsed",1.2510128489823247E-5}]:0.001263,'AB860301|Philippines|2013':6.3E-4)[&label=34]:1.0E-6,(('KJ451622|Micronesia|2013':1.0E-6,('KJ451623|Micronesia|2013':9.0E-5,('KJ689453|Micronesia|2013':1.0E-6,'KJ689452|Micronesia|2013':1.0E-6)[&label=78]:1.0E-6)[&label=60]:9.0E-5)[&label=100,!collapse={"collapsed",0.001006703561871488}]:8.1E-4,(('KT308160|Philippines|2012':9.0E-5,('KT308162|Philippines|2012':2.7E-4,'KT308159|Philippines|2012':9.0E-5)[&label=83]:9.0E-5)[&label=93,!collapse={"collapsed",0.0017268010075143884}]:2.7E-4,(('LC259084|Philippines|2012':4.5E-4,('KC488650|China|2012':2.7E-4,'KF318729|China|2012':9.0E-5)[&label=100]:6.31E-4)[&label=90,!collapse={"collapsed",0.00127631623910553}]:1.8E-4,(('KT308163|Philippines|2012':7.23E-4,'KT308161|Philippines|2012':8.12E-4)[&label=100,!collapse={"collapsed",0.0018191013341903838}]:5.4E-4,((('LC259086|Indonesia|2013':0.002895,('MF773561|Indonesia|2011':0.002532,'FJ807897|Indonesia|2007':8.1E-4)[&label=43]:1.0E-6)[&label=93]:2.69E-4,('MF773565|Timor-Leste|2010':0.001085,'LC259083|Indonesia|2009':2.67E-4)[&label=100]:0.001266)[&label=98,!collapse={"collapsed",0.0020054790865678823}]:2.72E-4,(((('KF872195|Russia_Imported|2013':0.001626,(('MG664851|China|2012':8.16E-4,'LC259091|Indonesia|2015':0.002177)[&label=78]:8.5E-5,(('KY883764|Singapore|2013':3.6E-4,(('LC259087|Indonesia|2013':3.6E-4,'KM673291|Indonesia|2013':1.0E-6)[&label=65]:9.0E-5,'LC259085|Indonesia|2012':1.0E-6)[&label=58]:1.0E-6)[&label=100]:9.95E-4,('KX097986|Indonesia|2015':5.46E-4,('KX097988|Indonesia|2015':4.51E-4,'KX097982|Indonesia|2015':1.8E-4)[&label=100]:1.78E-4)[&label=100]:9.97E-4)[&label=100]:5.41E-4)[&label=41]:1.0E-6)[&label=98]:5.37E-4,'HE806461|New_Caledonia|2011':0.001543)[&label=100,!collapse={"collapsed",2.5982924353463305E-4}]:0.002373,('FN295483|Malaysia|2006':9.0E-5,('KX168429|Malaysia|2009':0.002265,('FN295484|Malaysia|2006':1.8E-4,((('KM923920|Malaysia|2007':1.0E-6,'KM923917|Malaysia|2007':1.0E-6)[&label=73]:1.0E-6,('KM923918|Malaysia|2007':1.0E-6,'KM923919|Malaysia|2007':1.0E-6)[&label=73]:9.0E-5)[&label=98]:3.06E-4,(('EU703761|Malaysia|2006':9.34E-4,'EU703760|Malaysia|2006':7.78E-4)[&label=55]:1.29E-4,('EU703759|Malaysia|2006':1.84E-4,'EU703762|Malaysia|2006':0.001078)[&label=71]:1.76E-4)[&label=91]:4.13E-4)[&label=73]:4.09E-4)[&label=34]:1.0E-6)[&label=53]:9.0E-5)[&label=100,!collapse={"collapsed",0.0021741500538299124}]:9.04E-4)[&label=100]:0.001182,('HM045797|Indonesia|1985':0.001625,(('HM045791|Indonesia|1983':4.52E-4,('HM045790|Philippines|1985':1.0E-6,'HM045800|Philippines|1985':1.0E-6)[&label=100]:0.001265)[&label=65,!collapse={"collapsed",0.013495036887708783}]:8.8E-5,((('KX262987|Thailand|1996':0.001647,('HM045802|K0146-95|Thailand':0.001173,('HM045796|Thailand|1995':9.91E-4,'HM045787|Thailand|1995':9.92E-4)[&label=10]:1.0E-6)[&label=66]:6.8E-5)[&label=100]:0.00525,('KX262988|Thailand|1988':5.41E-4,'HM045789|Thailand|1988':2.69E-4)[&label=100]:0.002468)[&label=100,!collapse={"collapsed",0.007872967578100479}]:7.11E-4,('HM045808|Thailand|1978':0.0016,('HM045814|Thailand|1975':0.001495,(('HM045810|Thailand|1958':7.28E-4,('LC259082|Thailand|1958':5.36E-4,(('HM045788|India|1973':1.79E-4,'EF027141|India|1973':1.81E-4)[&label=100]:0.004188,(('HM045803|India|1963':1.0E-6,'EF027140|India|1963':0.001807)[&label=59]:9.0E-5,'HM045813|India|1963':1.0E-6)[&label=70]:1.0E-6)[&label=100]:0.00282)[&label=100]:0.00174)[&label=100]:0.001724,'EF452493|Thailand|':0.001547)[&label=100]:0.003452)[&label=91,!collapse={"collapsed",3.469446951953614E-18}]:4.35E-4)[&label=100]:0.002223)[&label=100]:6.31E-4)[&label=25]:1.0E-6)[&label=100]:0.008234)[&label=100]:0.001174)[&label=100]:0.002271)[&label=100]:8.13E-4)[&label=20]:1.0E-6)[&label=94]:3.6E-4)[&label=13]:1.0E-6)[&label=56]:9.0E-5)[&label=37]:1.0E-6)[&label=99]:5.4E-4,'KR559489|Jamaica|2014':9.0E-5)[&label=13]:1.0E-6,'LN898110|Guadeloupe|2014':9.0E-5)[&label=0]:1.0E-6,(('KP164572|Brazil_Belem-PA|2014':9.0E-5,'KX262992|Guadeloupe|2014':1.0E-6)[&label=50]:9.0E-5,'KY435482|Saint_Kitts_and_Nevis|2014':1.8E-4)[&label=1]:1.0E-6)[&label=0]:1.0E-6,((('KY680388|USA|2014':9.0E-5,'KY435477|Guyana|2014':3.6E-4)[&label=5]:1.0E-6,('KY435481|Saint_Lucia|2014':1.8E-4,((('LN898109|Martinique|2014':1.0E-6,(((('LN898099|Guadeloupe|2014':1.0E-6,'LN898102|Guadeloupe|2014':1.0E-6)[&label=6]:1.0E-6,'LN898093|Martinique|2013':1.0E-6)[&label=0]:1.0E-6,('LN898107|Martinique|2014':9.0E-5,'LN898111|Guadeloupe|2014':1.8E-4)[&label=6]:1.0E-6)[&label=0]:1.0E-6,'LN898097|Guadeloupe|2014':1.0E-6)[&label=0]:1.0E-6)[&label=5]:1.0E-6,(('KX496989|Colombia|2016':1.0E-6,'KR559491|Colombia|2014':1.8E-4)[&label=80,!collapse={"collapsed",8.17469530214391E-4}]:2.7E-4,'LN898095|Martinique|2014':9.0E-5)[&label=2]:1.0E-6)[&label=6]:1.0E-6,('LN898094|Guadeloupe|2014':9.0E-5,'LN898103|Guadeloupe|2014':1.0E-6)[&label=47]:9.0E-5)[&label=5,!collapse={"collapsed",8.17469530214391E-4}]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('KR559485|Virgin_Islands|2014':5.4E-4,('KY435454|Trinidad_and_Tobago|2011':3.6E-4,('KY435475|Saint_Vincent_and_the_Grenadines|2014':1.8E-4,('KY435472|Grenada|2014':1.0E-6,'KY435469|Grenada|2014':9.0E-5)[&label=80]:9.0E-5)[&label=30]:1.0E-6)[&label=49,!collapse={"collapsed",9.09064700490396E-4}]:9.0E-5)[&label=3]:1.0E-6,('KX262991|Saint_Martin|2003':9.0E-5,'KP164567|Brazil_Oiapoque-AP|2014':5.4E-4)[&label=4]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(((((('KY575573|USA|2014':1.8E-4,('KY435458|Guyana|2014':3.6E-4,'KR046228|Trinidad_and_Tobago|2014':9.0E-5)[&label=60]:9.0E-5)[&label=15]:1.0E-6,('KY435474|Saint_Lucia|2014':1.8E-4,'KR559492|Saint_Lucia|2014':1.8E-4)[&label=11]:1.0E-6)[&label=54,!collapse={"collapsed",8.16236239930393E-4}]:9.0E-5,('LN898098|Guadeloupe|2014':2.7E-4,(((((('KY435470|Bahamas|2014':2.7E-4,'KY680399|USA|2014':2.7E-4)[&label=64]:9.0E-5,'KY680367|USA|2014':1.8E-4)[&label=0]:1.0E-6,('LN898108|Martinique|2014':1.8E-4,'KY680389|USA|2014':1.8E-4)[&label=2]:1.0E-6)[&label=0]:1.0E-6,((('KU365366|Mexico|2014':9.0E-5,(('KY703921|Nicaragua|2015':4.5E-4,((((((('KY703889|Nicaragua|2015':1.0E-6,'KY703892|Nicaragua|2015':2.7E-4)[&label=63]:9.0E-5,(((('KY703944|Nicaragua|2015':1.8E-4,'KY703943|Nicaragua|2015':1.8E-4)[&label=40]:1.0E-6,'KY703995|Nicaragua|2015':1.8E-4)[&label=100]:4.5E-4,'KY703890|Nicaragua_Masaya|2015':4.5E-4)[&label=31]:1.0E-6,'KY703965|Nicaragua|2015':1.8E-4)[&label=60]:9.0E-5)[&label=6]:1.0E-6,(('KY703997|Nicaragua|2015':9.91E-4,('KY703941|Nicaragua|2015':2.96E-4,'KY703966|Nicaragua|2015':5.41E-4)[&label=53]:8.9E-5)[&label=5]:1.0E-6,'KY703972|Nicaragua|2014':9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('KY703914|Nicaragua|2015':2.7E-4,(('KY703986|Nicaragua|2015':5.41E-4,('KY703891|Nicaragua_Rivas|2015':2.7E-4,('KY703974|Nicaragua|2015':9.0E-5,(('KY703952|Nicaragua|2015':1.0E-6,'KY703926|Nicaragua|2015':1.0E-6)[&label=24]:1.0E-6,'KY703924|Nicaragua|2015':1.0E-6)[&label=35]:1.0E-6)[&label=49]:1.0E-6)[&label=60]:8.9E-5)[&label=60]:1.0E-6,('KY703907|Nicaragua|2015':1.0E-6,('KY703982|Nicaragua|2015':9.0E-5,'KY703971|Nicaragua|2015':3.6E-4)[&label=24]:1.0E-6)[&label=15]:1.0E-6)[&label=70]:9.0E-5)[&label=80]:1.8E-4,'KY703978|Nicaragua|2015':2.7E-4)[&label=3]:1.0E-6)[&label=0]:1.0E-6,(((('KY703933|Nicaragua|2015':3.6E-4,'KY703999|Nicaragua|2015':1.8E-4)[&label=0]:1.0E-6,('KY703912|Nicaragua|2015':5.57E-4,('KY703992|Nicaragua|2015':9.0E-5,('KY703990|Nicaragua|2015':9.0E-5,('KY703987|Nicaragua|2015':1.8E-4,'KY703925|Nicaragua|2015':9.0E-5)[&label=79]:9.0E-5)[&label=69]:9.0E-5)[&label=88]:2.7E-4)[&label=15]:1.0E-6)[&label=0]:1.0E-6,('KY703983|Nicaragua|2014':1.0E-6,'KY703950|Nicaragua|2014':1.0E-6)[&label=4]:1.0E-6)[&label=0]:1.0E-6,'KY703988|Nicaragua|2014':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('KY704002|Nicaragua|2015':9.0E-5,'KY703968|Nicaragua|2015':1.8E-4)[&label=3]:1.0E-6)[&label=0]:1.0E-6,(('KY703951|Nicaragua|2015':4.5E-4,'KY703923|Nicaragua|2015':1.8E-4)[&label=65]:9.0E-5,'KY703905|Nicaragua|2015':4.5E-4)[&label=4]:1.0E-6)[&label=0]:1.0E-6)[&label=5]:9.0E-5,(('KY703975|Nicaragua|2015':3.6E-4,'KY703960|Nicaragua|2015':2.7E-4)[&label=32]:9.0E-5,(('KY680361|USA|2014':1.0E-6,('KY703898|Nicaragua|2015':5.4E-4,'KY680398|USA|2014':9.0E-5)[&label=3]:1.0E-6)[&label=2]:1.0E-6,'KY680352|USA|2014':9.0E-5)[&label=15]:1.0E-6)[&label=10]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('KY435456|Suriname|2014':9.0E-5,(('KY703906|Nicaragua|2015':4.5E-4,'KY680366|USA|2014':3.6E-4)[&label=50]:9.0E-5,'KY703970|Nicaragua|2015':9.0E-4)[&label=33]:1.0E-6)[&label=2]:1.0E-6,('KY680347|USA|2014':1.0E-6,('KY680364|USA|2014':1.0E-6,'KY435476|Turks_and_Caicos_Islands|2014':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((('KY680393|USA|2014':9.0E-5,'KR559484|El_Salvador|2014':9.0E-5)[&label=0]:1.0E-6,('KY680384|USA|2014':9.0E-5,'KY680373|USA|2014':1.8E-4)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((('KY703927|Nicaragua|2015':9.0E-5,(('KY703998|Nicaragua|2015':9.0E-5,('KY703967|Nicaragua|2015':9.0E-5,((('KY703895|Nicaragua|2015':1.0E-6,'KY703930|Nicaragua|2015':1.0E-6)[&label=90]:1.0E-6,'KY703911|Nicaragua|2015':1.8E-4)[&label=97]:2.7E-4,'KY703980|Nicaragua|2015':1.0E-6)[&label=70]:9.0E-5)[&label=32]:1.0E-6)[&label=100]:4.5E-4,'KR559471|El_Salvador|2014':1.0E-6)[&label=55]:9.0E-5)[&label=3]:1.0E-6,'LN898104|Martinique|2014':1.0E-6)[&label=0]:1.0E-6,(((('KR559488|Honduras|2014':2.7E-4,(('KY680365|USA|2014':1.0E-6,'KY680413|USA|2014':5.4E-5)[&label=27]:3.6E-5,(('KY680405|USA|2014':3.6E-4,'KY680386|USA|2014':2.7E-4)[&label=13]:1.0E-6,('KY435455|Anguilla|2014':9.0E-5,'KY435461|Jamaica|2014':9.0E-5)[&label=11]:1.0E-6)[&label=2]:1.0E-6)[&label=43]:9.0E-5)[&label=0]:1.0E-6,'KR559472|El_Salvador|2014':1.0E-6)[&label=0]:1.0E-6,'KY703904|Nicaragua|2014':1.0E-6)[&label=0]:1.0E-6,('KY703956|Nicaragua|2014':1.0E-6,(('KR046231|Trinidad_and_Tobago|2014':1.0E-6,'KX262994|French_Guiana|2014':1.0E-6)[&label=3]:1.0E-6,(((((('KY435459|Cayman_Islands|2014':9.0E-5,('KY680379|USA|2014':1.8E-4,'MF773560|Caribbean|2014':3.6E-4)[&label=19]:1.0E-6)[&label=81]:1.8E-4,'KY680375|USA|2014':1.8E-4)[&label=0]:1.0E-6,(((('KY703996|Nicaragua|2015':2.7E-4,'KY703935|Nicaragua|2015':4.5E-4)[&label=96]:1.8E-4,'KY703920|Nicaragua_Granada|2015':4.5E-4)[&label=79]:2.7E-4,('KY703922|Nicaragua|2015':1.0E-6,'KY703908|Nicaragua|2014':1.0E-6)[&label=95]:2.7E-4)[&label=1]:1.0E-6,(('KY680363|USA|2014':1.8E-4,('LC259092|Cuba|2016':8.11E-4,'KY703994|Nicaragua|2015':4.5E-4)[&label=30]:1.0E-6)[&label=32]:9.0E-5,'KY680355|USA|2014':6.3E-4)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((('KY680359|USA|2014':2.7E-4,'KY703899|Nicaragua_Nuevo_Segovia|2015':6.3E-4)[&label=1]:1.0E-6,((('KY703909|Nicaragua|2015':1.8E-4,('KY703984|Nicaragua|2014':1.0E-6,('KY703947|Nicaragua|2014':9.0E-5,'KY703928|Nicaragua|2015':4.5E-4)[&label=19]:1.0E-6)[&label=10]:1.0E-6)[&label=25]:1.0E-6,('KY703901|Nicaragua|2015':1.0E-6,'KY703918|Nicaragua|2015':1.0E-6)[&label=93]:1.8E-4)[&label=99]:2.7E-4,'KR046229|Trinidad_and_Tobago|2014':1.8E-4)[&label=3]:1.0E-6)[&label=0]:1.0E-6,((((('KY703977|Nicaragua|2015':9.0E-5,('KY703936|Nicaragua|2015':1.0E-6,'KY703961|Nicaragua|2015':9.0E-5)[&label=80]:9.0E-5)[&label=100]:6.3E-4,('KP851709|Mexico|2014':1.8E-4,('KY703945|Nicaragua|2015':6.32E-4,'MG921596|Mexico|2015':5.42E-4)[&label=95]:8.8E-5)[&label=96]:2.7E-4)[&label=11]:1.0E-6,(('KR559481|Guatemala|2014':1.8E-4,('KY703896|Nicaragua|2014':9.0E-5,('KY703910|Nicaragua|2015':1.8E-4,('KY703917|Nicaragua|2016':2.7E-4,'KY703962|Nicaragua|2015':1.0E-6)[&label=35]:1.0E-6)[&label=88]:1.8E-4)[&label=81]:9.0E-5)[&label=67]:9.0E-5,'KY703913|Nicaragua|2015':3.6E-4)[&label=13]:1.0E-6)[&label=38]:9.0E-5,(('KR559476|Haiti|2014':1.8E-4,((((((('KY415979|Haiti|2014':1.0E-6,'KY415982|Haiti|2014':1.0E-6)[&label=7]:1.0E-6,'KY415980|Haiti|2014':1.0E-6)[&label=0]:1.0E-6,('KY415981|Haiti|2014':1.0E-6,'KX702402|Haiti|2014':1.0E-6)[&label=8]:1.0E-6)[&label=1]:1.0E-6,'KY415984|Haiti|2014':1.0E-6)[&label=0]:1.0E-6,'KY415978|Haiti|2014':1.0E-6)[&label=0]:1.0E-6,'KY415983|Haiti|2014':1.0E-6)[&label=6]:1.0E-6,'KY415985|Haiti|2014':1.0E-6)[&label=53]:1.0E-6)[&label=31]:9.0E-5,((('KY680356|USA|2014':3.6E-4,'KR559478|Haiti|2014':9.0E-5)[&label=13]:1.0E-6,('KY680402|USA|2014':3.6E-4,'KY680372|USA|2014':9.0E-5)[&label=14]:1.0E-6)[&label=4]:1.0E-6,'KX702401|Haiti|2014':1.0E-6)[&label=25]:1.0E-6)[&label=19]:9.0E-5)[&label=0]:1.0E-6,((('KY435480|Haiti|2014':1.8E-4,'KR046232|Trinidad_and_Tobago|2014':9.0E-5)[&label=1]:1.0E-6,('KU365367|Mexico|2014':4.5E-4,'KY704001|Nicaragua|2015':1.8E-4)[&label=1]:1.0E-6)[&label=0]:1.0E-6,(('LC259089|Dominica|2014':4.5E-4,('LN898101|Martinique|2014':1.8E-4,'LN898105|Martinique|2014':1.0E-6)[&label=39]:9.0E-5)[&label=16]:1.0E-6,('KU365369|Trinidad_and_Tobago|2014':1.0E-6,'KR046230|Trinidad_and_Tobago|2014':1.0E-6)[&label=63]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('KY703934|Nicaragua|2015':2.7E-4,('KY703948|Nicaragua|2015':2.7E-4,(('KY703959|Nicaragua|2014':1.8E-4,'KY703955|Nicaragua|2015':1.8E-4)[&label=13]:1.0E-6,'KY703919|Nicaragua|2015':9.0E-5)[&label=24]:1.0E-6)[&label=70]:1.8E-4)[&label=2]:1.0E-6,('KT192707|Nicaragua|2014':2.7E-4,('KY435471|Turks_and_Caicos_Islands|2014':9.0E-5,'KU365368|Mexico|2014':1.8E-4)[&label=70]:9.0E-5)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('KR559475|El_Salvador|2014':9.0E-5,('KY703897|Nicaragua|2015':1.8E-4,('KY703903|Nicaragua|2015':1.0E-6,'KY703902|Nicaragua|2015':1.0E-6)[&label=100]:4.5E-4)[&label=57]:9.0E-5)[&label=1]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(((('KY703938|Nicaragua|2015':1.0E-6,(('KY703946|Nicaragua|2015':6.3E-4,(('KY703893|Nicaragua|2015':1.8E-4,('KY703991|Nicaragua|2015':1.0E-6,'KY703894|Nicaragua|2015':1.0E-6)[&label=100]:7.21E-4)[&label=70]:9.0E-5,(('KY703900|Nicaragua|2015':3.6E-4,'KY703937|Nicaragua|2015':2.7E-4)[&label=79]:9.0E-5,('KY703976|Nicaragua|2015':3.6E-4,'KY703958|Nicaragua|2015':9.0E-5)[&label=12]:1.0E-6)[&label=6]:1.0E-6)[&label=63]:9.0E-5)[&label=7]:1.0E-6,('KY703973|Nicaragua|2015':4.5E-4,'KY703915|Nicaragua|2015':4.5E-4)[&label=15]:1.0E-6)[&label=2]:1.0E-6)[&label=1]:1.0E-6,('KY703954|Nicaragua|2014':1.8E-4,'KY703989|Nicaragua|2014':2.7E-4)[&label=8]:1.0E-6)[&label=2]:1.0E-6,('KY703979|Nicaragua|2015':8.1E-4,(('KY703985|Nicaragua|2015':2.7E-4,(('KY703942|Nicaragua|2015':9.0E-5,('KY703916|Nicaragua|2015':1.0E-6,'KY703957|Nicaragua|2015':9.0E-5)[&label=35]:1.0E-6)[&label=70]:9.0E-5,'KY703931|Nicaragua|2015':9.0E-5)[&label=40]:1.0E-6)[&label=98]:2.7E-4,'KY703888|Nicaragua|2015':7.21E-4)[&label=61]:8.9E-5)[&label=12]:1.0E-6)[&label=89]:2.7E-4,('KY703940|Nicaragua|2014':1.0E-6,'KY703993|Nicaragua|2014':1.0E-6)[&label=63]:9.0E-5)[&label=2]:1.0E-6)[&label=0]:1.0E-6,'KY680382|USA|2014':2.7E-4)[&label=42,!collapse={"collapsed",0.0}]:9.0E-5)[&label=45]:9.0E-5)[&label=0]:1.0E-6,('KY435464|Barbados|2014':2.7E-4,('KY435460|Cayman_Islands|2014':2.7E-4,'KY680376|USA|2014':1.8E-4)[&label=65,!collapse={"collapsed",9.970334156029041E-4}]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'LN898106|Martinique|2014':1.0E-6)[&label=0]:1.0E-6,'KY435462|Jamaica|2014':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('LN898100|Martinique|2014':9.0E-5,'KY435483|Anguilla|2014':1.8E-4)[&label=4]:1.0E-6)[&label=0]:1.0E-6,('LN898112|Martinique|2014':1.0E-6,'LN898096|Martinique|2014':1.0E-6)[&label=2]:1.0E-6)[&label=0]:1.0E-6,((('KY435465|Trinidad_and_Tobago|2014':2.7E-4,'KY680396|USA|2014':2.7E-4)[&label=4]:1.0E-6,('KY435485|Dominica|2014':1.0E-6,(('KY435468|Jamaica|2014':1.0E-6,('KY435457|Montserrat|2014':1.8E-4,'KY435479|Antigua_and_Barbuda|2014':1.8E-4)[&label=17]:1.0E-6)[&label=11]:1.0E-6,('KP851710|Mexico_|2014':5.4E-4,('KR046227|Trinidad_and_Tobago|2014':2.7E-4,'KY435467|Montserrat|2014':1.0E-6)[&label=22]:1.0E-6)[&label=47]:9.0E-5)[&label=59,!collapse={"collapsed",5.460637966515219E-4}]:9.0E-5)[&label=53]:9.0E-5)[&label=0]:1.0E-6,(((('KY272968|Dominican_Republic|2014':1.0E-6,(((('KY680412|USA|2014':1.8E-4,'KY680368|USA|2014':2.7E-4)[&label=92,!collapse={"collapsed",6.308942168058232E-4}]:3.6E-4,'KY680353|USA|2014':4.5E-4)[&label=5]:1.0E-6,('KP164571|Brazil_Recife-PE|2014':3.6E-4,'KY575566|USA|2014':9.0E-5)[&label=7]:1.0E-6)[&label=0]:1.0E-6,((('MF001515|USA|2015':9.0E-5,'MF001505|USA|2015':1.0E-6)[&label=83]:1.8E-4,'KY272965|Dominican_Republic|2014':9.0E-5)[&label=4]:1.0E-6,('KY272963|Dominican_Republic|2014':1.8E-4,'KY680406|USA|2014':3.6E-4)[&label=3]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(((((('KY680381|USA|2014':1.0E-6,(('MF001517|USA|2015':2.7E-4,'KY575572|USA|2014':1.8E-4)[&label=10]:1.0E-6,('KY680394|USA|2014':4.5E-4,('MF001506|USA|2015':2.7E-4,(('KY680380|USA|2014':1.0E-6,(('KY680348|USA|2014':2.7E-4,'KY680350|USA|2014':2.7E-4)[&label=51]:9.0E-5,('KR559480|Virgin_Islands|2014':1.8E-4,('KY680409|USA|2014':1.8E-4,'KR559482|Virgin_Islands|2014':1.0E-6)[&label=34]:1.0E-6)[&label=58]:1.8E-4)[&label=35]:1.0E-6)[&label=7]:1.0E-6,('MF001516|USA|2015':2.7E-4,'MF001508|USA|2015':4.5E-4)[&label=12]:1.0E-6)[&label=11]:1.0E-6)[&label=56,!collapse={"collapsed",6.266091213171371E-4}]:9.0E-5)[&label=12]:1.0E-6)[&label=3]:1.0E-6)[&label=1,!collapse={"collapsed",6.266091213171371E-4}]:1.0E-6,(('KR264950|PR-S5|Puerto_Rico|2014':5.42E-4,('MF001518|USA|2015':3.6E-4,'KR264949|PR-S4|Puerto_Rico|2014':9.0E-5)[&label=19]:1.0E-6)[&label=57,!collapse={"collapsed",5.381785887410458E-4}]:9.0E-5,'KY680404|USA|2014':9.0E-5)[&label=4]:1.0E-6)[&label=21]:1.0E-6,(('KY272964|Dominican_Republic|2014':4.5E-4,('KY680383|USA|2014':1.0E-6,'KY680371|USA|2014':9.0E-5)[&label=66]:9.0E-5)[&label=23]:9.0E-5,('KR264951|Puerto_Rico|2014':2.7E-4,'KY680392|USA|2014':1.8E-4)[&label=49]:1.0E-6)[&label=20,!collapse={"collapsed",5.420171857759386E-4}]:9.0E-5)[&label=3]:9.0E-5,('KY680401|USA|2014':5.4E-4,('LC259090|Colombia|2015':1.8E-4,('KR559486|Panama|2014':1.8E-4,('KU365373|Colombia|2014':1.0E-6,'KU365372|Colombia|2014':1.0E-6)[&label=73]:1.0E-6)[&label=63]:1.0E-6)[&label=91,!collapse={"collapsed",9.00423148790401E-4}]:1.8E-4)[&label=2]:1.0E-6)[&label=0]:1.0E-6,(((('KY680397|USA|2014':1.0E-6,(('KY272961|Dominican_Republic|2014':3.6E-4,(('KY272966|Dominican_Republic|2014':2.7E-4,'MF001513|USA|2015':9.0E-5)[&label=69]:9.0E-5,('KY575569|USA|2014':3.6E-4,('KY680369|USA|2014':1.0E-6,('KY680360|USA|2014':5.4E-4,('KY680358|USA|2014':9.0E-5,((('KY680357|USA|2014':9.0E-5,'MF001510|USA|2015':9.0E-5)[&label=69]:9.0E-5,('KY680374|USA|2014':1.0E-6,'MF001507|USA|2015':9.0E-5)[&label=31]:1.0E-6)[&label=43]:1.0E-6,'KY680387|USA|2014':9.0E-5)[&label=90]:1.8E-4)[&label=62]:9.0E-5)[&label=17]:1.0E-6)[&label=23]:1.0E-6)[&label=58]:9.0E-5)[&label=13]:1.0E-6)[&label=52]:9.0E-5,'KY680385|USA|2014':1.8E-4)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('KY680400|USA|2014':1.8E-4,(('KR559477|Dominican_Republic|2014':1.8E-4,('KR559498|Dominican_Republic|2014':1.0E-6,('KR559479|Dominican_Republic|2014':1.0E-6,('KR559483|Puerto_Rico|2014':5.4E-4,'KR559487|Honduras|2014':3.59E-4)[&label=3]:1.0E-6)[&label=2]:1.0E-6)[&label=1]:1.0E-6)[&label=2]:1.0E-6,('KR559474|Puerto_Rico|2014':3.6E-4,(('KY680377|USA|2014':1.8E-4,'KY680362|USA|2014':9.0E-5)[&label=10]:1.0E-6,('MF001512|USA|2015':2.7E-4,('KY680411|USA|2014':9.0E-5,'KY680414|USA|2014':3.6E-4)[&label=86]:1.8E-4)[&label=17]:1.0E-6)[&label=23]:1.0E-6)[&label=39]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'KY272962|Dominican_Republic|2014':1.0E-6)[&label=0]:1.0E-6)[&label=0,!collapse={"collapsed",5.348281939668055E-4}]:1.0E-6,((('KY575565|USA|2014':1.8E-4,('KY680390|USA|2014':1.0E-6,'KY680354|USA|2014':1.0E-6)[&label=88]:1.8E-4)[&label=5]:1.0E-6,('MF001514|USA|2015':1.8E-4,'KY680349|USA|2014':9.0E-5)[&label=1]:1.0E-6)[&label=0]:1.0E-6,(('KY680378|USA|2014':9.0E-5,'KY272969|Dominican_Republic|2014':1.8E-4)[&label=2]:1.0E-6,('KY680408|USA|2014':1.8E-4,'KY272967|Dominican_Republic|2014':9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('MF001519|USA|2015':3.6E-4,'MF001509|USA|2015':9.0E-5)[&label=50]:9.0E-5)[&label=0,!collapse={"collapsed",5.348281939668055E-4}]:1.0E-6)[&label=0]:1.0E-6,((('KY272970|Dominican_Republic|2014':2.7E-4,('KU355832|Brazil|2015':5.44E-4,'KY680351|USA|2014':1.8E-4)[&label=50]:9.0E-5)[&label=0]:1.0E-6,('KY435466|Barbados|2014':2.7E-4,('MF001511|USA|2015':3.6E-4,'KY680391|USA|2014':9.0E-5)[&label=64,!collapse={"collapsed",8.111678539157174E-4}]:9.0E-5)[&label=1]:1.0E-6)[&label=0]:1.0E-6,(('KR559470|Puerto_Rico|2014':4.5E-4,'KU365374|Venezuela|2014':3.6E-4)[&label=0]:1.0E-6,'KY680410|USA|2014':9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('KY680403|USA|2014':3.6E-4,'KY680395|USA|2014':4.5E-4)[&label=4]:1.0E-6)[&label=40]:9.0E-5,('KY435478|Guyana|2014':2.7E-4,('KR046234|Trinidad_and_Tobago|2014':1.0E-6,('KR559490|Guyana|2014':9.0E-5,(('KR046233|Trinidad_and_Tobago|2014':1.8E-4,'KR559496|Guyana|2014':1.0E-6)[&label=87]:1.8E-4,'KY435463|Suriname|2014':3.6E-4)[&label=27]:1.0E-6)[&label=3]:1.0E-6)[&label=16]:1.0E-6)[&label=50,!collapse={"collapsed",9.032055759759898E-4}]:9.0E-5)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,('KR559473|French_Polynesia|2015':3.6E-4,('KR559495|Puerto_Rico|2014':2.7E-4,('KR559494|Virgin_Islands|2014':1.8E-4,'KY435484|Dominica|2014':1.0E-6)[&label=40]:1.0E-6)[&label=62,!collapse={"collapsed",9.951944439800658E-4}]:9.0E-5)[&label=3]:1.0E-6)[&label=2]:1.0E-6,'KY680407|USA|2014':1.8E-4)[&label=94]:2.7E-4,'KY703949|Nicaragua|2015':2.7E-4)[&label=38]:1.0E-6)[&label=60]:9.0E-5,('AMA294|BoaVista_Roraima|2014':3.03E-4,'AMA295|Rondonia|2014':1.0E-6)[&label=93]:4.01E-4,'KY680370|USA|2014':9.0E-5);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Helvetica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Helvetica";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=2;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=6.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

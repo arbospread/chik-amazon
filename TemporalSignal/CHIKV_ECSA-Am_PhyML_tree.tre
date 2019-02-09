@@ -1,0 +1,131 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=29;
+	taxlabels
+	'AMA290|ZiBRA2_XXX|150001000338|Brazil_Amazonas_Manaus_DomPedro|2015-07-10'
+	'AMA291|ZiBRA2_XXX|150001000339|Brazil_Amazonas_Manaus_DomPedro|2015-07-11'
+	'AMA292|ZiBRA2_XXX|150001000352||Brazil_Amazonas_Manaus_DomPedro|2015-07-15'
+	'AMA293|ZiBRA2_XXX|160044000021|Brazil_Amazonas_Manaus_ColoniaTerraNova|2016-01-27'
+	'AMA346|ZiBRA2_XXX|LACEN_A109|Brazil_Roraima_BoaVista_Pintolandia|2017-03-03'
+	'AMA350|ZiBRA2_XXX|LACEN_A117|Brazil_Roraima_Bonfim_Taboca|2017-02-20'
+	'AMA352|ZiBRA2_XXX|LACEN_A119|Brazil_Roraima_BoaVista_SenadorHelioCampos|2017-02-22'
+	'AMA354|ZiBRA2_XXX|LACEN_A127|Brazil_Roraima_BoaVista_SilvioLeite|2017-03-17'
+	'AMA362|ZiBRA2_XXX|LACEN_A130|Brazil_Roraima_Iracema_Centro|2017-03-17'
+	'AMA364|ZiBRA2_XXX|LACEN_A131|Brazil_Roraima_BoaVista_Alvorada|2017-03-17'
+	'AMA366|ZiBRA2_XXX|LACEN_A133|Brazil_Roraima_BoaVista_Alvorada|2017-03-17'
+	'AMA368|ZiBRA2_XXX|LACEN_A134|Brazil_Roraima_BoaVista_SenadorHelioCampos|2017-03-15'
+	'AMA369|ZiBRA2_XXX|LACEN_A143|Brazil_Roraima_BoaVista_Equatorial|2017-03-02'
+	'AMA374|ZiBRA2_XXX|LACEN_A155|Brazil_Roraima_BoaVista_Pricuma|2017-03-02'
+	'AMA379|ZiBRA2_XXX|LACEN_A151|Brazil_Roraima_BoaVista_Aparecida|2017-02-27'
+	'AMA381|ZiBRA2_XXX|LACEN_A152|Brazil_Roraima_BoaVista_Pintolandia|2017-02-27'
+	'AMA382|ZiBRA2_XXX|LACEN_A159|Brazil_Roraima_BoaVista_Alvorada|2017-03-05'
+	'AMA74|ZiBRA2_XXX|6|Brazil_Manaus_ParqueDasNacoes|2017-03-18'
+	'CHIKV|KP164568|BHI3734_H804698|Brazil_Feira_de_Santana-BA|2014-08-26'
+	'CHIKV|KP164569|BHI3741_H804705|Brazil_Feira_de_Santana-BA|2014-08-28'
+	'CHIKV|KP164570|BHI3745_H804709|Brazil_Feira_de_Santana-BA|2014-09-03'
+	'CHIKV|KU940225|Bahia08|Brazil|2015-07-15'
+	'CHIKV|KU940226|Bahia09|Brazil|2015-08-01'
+	'CHIKV|KX228391|BR33|Brazil_Pernambuco|2016-03-03'
+	'CHIKV|KY704939|166_S137|Brazil_Alagoas_Maceio|2016-04-17'
+	'CHIKV|KY704942|172_S134|Brazil_Alagoas_Maceio|2016-04-16'
+	'CHIKV|KY704952|241_S183|Brazil_Alagoas_Maceio|2016-04-07'
+	'CHIKV|KY704954|19AP_S90|Brazil_Paraiba_Joao_Pessoa|2016-06-20'
+	'CHIKV|KY704955|35AP_S150|Brazil_Paraiba_Joao_Pessoa|2016-06-17'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('AMA293|ZiBRA2_XXX|160044000021|Brazil_Amazonas_Manaus_ColoniaTerraNova|2016-01-27':0.00298,'CHIKV|KX228391|BR33|Brazil_Pernambuco|2016-03-03':0.00515)[&aLTR=0.94]:0.00515,('CHIKV|KP164569|BHI3741_H804705|Brazil_Feira_de_Santana-BA|2014-08-28':0.00127,(('AMA292|ZiBRA2_XXX|150001000352||Brazil_Amazonas_Manaus_DomPedro|2015-07-15':0.00703,('AMA291|ZiBRA2_XXX|150001000339|Brazil_Amazonas_Manaus_DomPedro|2015-07-11':0.00313,'AMA290|ZiBRA2_XXX|150001000338|Brazil_Amazonas_Manaus_DomPedro|2015-07-10':0.01134)[&aLTR=0.0]:0.0)[&aLTR=0.95]:0.00423,('CHIKV|KP164570|BHI3745_H804709|Brazil_Feira_de_Santana-BA|2014-09-03':0.0,('CHIKV|KP164568|BHI3734_H804698|Brazil_Feira_de_Santana-BA|2014-08-26':0.0,(('CHIKV|KU940225|Bahia08|Brazil|2015-07-15':0.0,'CHIKV|KU940226|Bahia09|Brazil|2015-08-01':0.0)[&aLTR=0.0]:0.0,('AMA74|ZiBRA2_XXX|6|Brazil_Manaus_ParqueDasNacoes|2017-03-18':0.01428,('CHIKV|KY704942|172_S134|Brazil_Alagoas_Maceio|2016-04-16':0.00773,('CHIKV|KY704952|241_S183|Brazil_Alagoas_Maceio|2016-04-07':0.01016,'CHIKV|KY704939|166_S137|Brazil_Alagoas_Maceio|2016-04-17':0.00128)[&aLTR=0.0]:0.0)[&aLTR=0.93]:0.00429)[&aLTR=0.75]:0.00122)[&aLTR=0.95]:0.00381)[&aLTR=0.0]:0.0)[&aLTR=0.0]:0.0)[&aLTR=0.0]:0.0)[&aLTR=0.75]:0.00126):0.00287,(('CHIKV|KY704955|35AP_S150|Brazil_Paraiba_Joao_Pessoa|2016-06-17':0.00514,'CHIKV|KY704954|19AP_S90|Brazil_Paraiba_Joao_Pessoa|2016-06-20':0.00641)[&aLTR=0.0]:0.0,(('AMA364|ZiBRA2_XXX|LACEN_A131|Brazil_Roraima_BoaVista_Alvorada|2017-03-17':0.00151,('AMA362|ZiBRA2_XXX|LACEN_A130|Brazil_Roraima_Iracema_Centro|2017-03-17':0.00429,('AMA346|ZiBRA2_XXX|LACEN_A109|Brazil_Roraima_BoaVista_Pintolandia|2017-03-03':0.00704,'AMA366|ZiBRA2_XXX|LACEN_A133|Brazil_Roraima_BoaVista_Alvorada|2017-03-17':0.00564)[&aLTR=0.0]:0.0)[&aLTR=0.8]:0.0014)[&aLTR=0.75]:0.00139,(('AMA350|ZiBRA2_XXX|LACEN_A117|Brazil_Roraima_Bonfim_Taboca|2017-02-20':0.0,('AMA379|ZiBRA2_XXX|LACEN_A151|Brazil_Roraima_BoaVista_Aparecida|2017-02-27':0.0,'AMA381|ZiBRA2_XXX|LACEN_A152|Brazil_Roraima_BoaVista_Pintolandia|2017-02-27':0.00168)[&aLTR=0.41]:0.00382)[&aLTR=0.85]:0.00225,(('AMA382|ZiBRA2_XXX|LACEN_A159|Brazil_Roraima_BoaVista_Alvorada|2017-03-05':0.0049,('AMA374|ZiBRA2_XXX|LACEN_A155|Brazil_Roraima_BoaVista_Pricuma|2017-03-02':0.0,('AMA369|ZiBRA2_XXX|LACEN_A143|Brazil_Roraima_BoaVista_Equatorial|2017-03-02':0.0,'AMA352|ZiBRA2_XXX|LACEN_A119|Brazil_Roraima_BoaVista_SenadorHelioCampos|2017-02-22':0.0)[&aLTR=0.73]:0.00131)[&aLTR=0.0]:0.0)[&aLTR=0.84]:0.00131,('AMA354|ZiBRA2_XXX|LACEN_A127|Brazil_Roraima_BoaVista_SilvioLeite|2017-03-17':0.0,'AMA368|ZiBRA2_XXX|LACEN_A134|Brazil_Roraima_BoaVista_SenadorHelioCampos|2017-03-15':0.00544)[&aLTR=0.0]:0.0)[&aLTR=0.0]:0.0)[&aLTR=0.9]:0.0026)[&aLTR=0.98]:0.00651):9.5E-4)[&aLTR=0.93];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Helvetica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Helvetica";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=2;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
